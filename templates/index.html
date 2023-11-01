@@ -16,10 +16,10 @@
 <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
   <div class="row header p-6 m-5">
     <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
-      <h2>
+      <h2 style="font-size: 50px;">
         {{config.tagline|safe}}
       </h2>
-      <h2 class="p-5">
+      <h2 class="p-5" style="font-size: 50px;"">
         {{config.date|safe}}
       </h2>
     </div>
@@ -29,8 +29,9 @@
 
 {% block content %}
 
+<div style="font-size: 17px;">
 {{ readme | markdown }}
-
+</div>
 <!-- Organizers -->
 {{ components.section("Organizers") }}
 {{ components.organizergroup(committee) }}
