@@ -1,4 +1,4 @@
-![](static/images/nsf.webp)
+![](static/images/NSF.png)
 
 ## Workshop on Open-Source Generative AI
 
