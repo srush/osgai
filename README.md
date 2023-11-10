@@ -1,4 +1,4 @@
-![](static/images/NSF.png)
+<img src="static/images/NSF.png" width="200px">
 
 ## Workshop on Open-Source Generative AI
 
